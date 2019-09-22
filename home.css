@@ -1,0 +1,189 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 5;
+}
+
+* h1 {
+    color: #faffcc;
+}
+
+* p, h2{
+    color: rgb(42, 42, 42);
+}
+
+* p{
+    font-size: 40px;
+}
+
+.background-image {
+    background-image: url(./img/banner-background2-blur.jpg);
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    width: cover;
+    height: 600%;
+}
+
+nav ul{    
+    width: 100%;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    color: #faffcc;
+    padding: 20px;
+    margin : 10px 70px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: 700;
+    position: relative;
+    bottom: 25;
+    border-radius: 5%;
+}
+
+nav li:hover{
+    background-color: #ddc47785;
+}
+
+#img-jovi{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    border-radius: 100%;
+}
+
+.banner {
+    margin: 100px 40px;
+    height: 15vh;
+}
+
+.banner h1{
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    width: 190vh;
+    text-align: center;
+    font-size: 90px;
+    color: #faffcc;
+}
+
+.what-i-do {
+    margin: 25px;
+}
+
+.what-i-do .text {
+    background-color: #663b807c;
+    border-radius: 50%;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 25px 50px;
+}
+
+.circle {
+    background-color: #663b807c;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    top: 5px;
+    margin: 0px 20px;
+}
+
+.intro {
+    background-color: #faffcc7c;
+    margin: 50px 100px;
+    margin-bottom: 100px;
+    padding: 50;
+    border-radius: 10%;
+}
+
+.grid-div {
+    margin: 50px 100px;
+    margin-bottom: 100px;
+    padding: 50;
+    border-radius: 10%;
+}
+
+.grid-div {
+    margin: 20px 100px;
+    margin-bottom: 100px;
+    padding: 50;
+    border-radius: 10%;
+}
+
+
+.grid-container {
+    text-align: center;
+}
+
+.grid {
+    display: inline-block;
+    margin: 50 50;
+    background-color: #663b807c;
+    padding: 30;
+    border-radius: 5%;
+    box-shadow: 1px 1px 15px 2px #0000001a;
+    width:500;
+}
+
+.grid p {
+    color: #faffcc;
+}
+
+.contact-container {
+        height: 25vh;
+    /* width: 100%; */
+    padding : 50;
+    margin: 25px 100px; 
+}
+
+.contact-grid {
+    /* height: 25vh; */
+    /* width: 100%; */
+    padding : 50;
+    margin: 0 50;
+    padding: 30;
+}
+
+.socmed-logo {
+    height : 175px;
+    width: 175px;
+    background-color: #663b807c;
+    border-radius: 5%;
+    margin-right: 5;
+    display: inline-block;
+    box-shadow: 1px 1px 15px 2px #0000001a;
+
+}
+
+.socmed-id {
+    height : 175px;
+    width: 70%;
+    background-color: #663b807c;
+    border-radius: 5%;
+    margin-left: 3%;
+    display: inline-block;
+    position: relative;
+    bottom: 62;
+    box-shadow: 1px 1px 15px 2px #0000001a;
+
+}
+
+.socmed-logo-img {
+    height : 175px;
+    width: 175px;
+    border-radius: 5%;
+    margin-right: 5;
+    display: inline-block;
+}
+
+.socmed-id-actual {
+    font-size: 100px;
+    padding: 0 30;
+}
